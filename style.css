@@ -1,0 +1,819 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+    
+}
+body{
+    
+    position:relative;
+    
+    
+}
+
+
+
+li,a{
+    font-family: sans-serif,'popins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 27px;
+color:  rgba(130, 130, 130, 1);
+cursor: pointer;
+
+
+}
+header{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 24px 72px;
+gap: 140px;
+position: absolute;
+width: 1280px;
+height: 93px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+
+    
+  
+    
+
+}
+.logo{
+    cursor: pointer;
+    margin-left: 55px
+}
+.nav-links{
+    list-style: none;
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+    transition: all 0.3s ease-in-out;
+}
+.nav-links li:hover{
+    text-decoration: underline;
+    transform-origin: left;
+    text-decoration-color: rgba(232, 139, 62, 1);
+    
+}
+
+.button-contact{
+    font-family: sans-serif,'popins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+float: right;
+margin-top:-53px;
+color:  rgba(130, 130, 130, 1);
+width: 133px;
+height: 43px;
+border: 1px solid #408F99;
+border-radius: 600px;
+transition: 0.3s;
+}
+.button-contact:hover{
+    border-color: #E88B3E;
+}
+.search-button{
+    border: none;
+    background: transparent;
+    margin-right: 15px;
+    float: right;
+    margin-top: -46px;
+    margin-right: -57px;
+    
+}
+.nav-bar{
+    position: relative;
+    z-index: 100;
+    overflow: hidden;
+    margin-left: 297px;
+    margin-top: -36px;
+}
+
+.right-side{
+    float: right;
+    width: 50%;
+}
+
+.siteimage{
+    float: right;
+    margin-top: 65px;
+}
+
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: 125px;
+    font-family: 'PT Serif';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+color: #E88B3E;
+height: 242px;
+
+
+}
+.sign-up{
+    margin-left: 160px;
+    background: #E88B3E;
+border-radius: 60px;
+position: absolute;
+width: 136.92px;
+height: 48.55px;
+margin-top: 20px;
+border:none ;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+color: white;
+
+}
+.sign-up:hover{
+    background-color:#eee;
+    color: #408F99;
+}
+.about{
+    font-family: sans-serif,'Poppins';
+    width: 262.18px;
+height: 48.55px;
+margin-left: 305px;
+border: 1px solid #F2994A;
+border-radius: 60px;
+margin-top: 20px;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+color:#E88B3E ;
+background: transparent;
+}
+.about:hover{
+    color: #408F99;
+    background-color:#eee;
+    border: none;
+}
+.sub-text{
+    width: 389.39px;
+height: 34.96px;
+margin-left: 160px;
+font-family:sans-serif, 'Poppins';
+color:#408F99 ;
+
+font-weight: 400;
+font-size: 13px;
+}
+.green-box{
+
+  position: absolute;
+width: 1228px;
+height: 606px;
+left: 60px;
+top: 723px;
+background: #165B64;
+border-radius: 24px
+}
+.second-vector{
+    
+width: 266px;
+
+}
+.icons{
+    float: right;
+    padding: 30px;
+    margin-right: 25px;
+}.table-content{
+    width: 100%;
+}
+.border-line{
+    margin-left: 28px;
+    margin-top: 50px;
+}
+.table-content{
+    font-family:  sans-serif,'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+  float: left;
+    color: #F2F2F2;
+    
+}
+.sub-text{
+font-family: sans-serif,'Poppins';
+font-weight: 400;
+font-size: 16px;
+color: white;
+margin-left: 25px;
+margin-top: 15px;
+
+}
+.main-text{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.patient-text{
+position:absolute;
+width: 232px;
+height: 27px;
+left: 430px;
+top: 299px;
+
+font-family:sans-serif, 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+color: #FFFFFF;
+
+}
+.physician-text{
+    position: absolute;
+width: 233px;
+height: 54px;
+left: 688px;
+top: 299px;
+
+
+font-family: sans-serif,'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+
+color: #FFFFFF;
+}
+
+.lab-text{
+    position: absolute;
+width: 232px;
+height: 54px;
+left: 983px;
+top: 299px;
+font-family: sans-serif 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+
+color: #FFFFFF;
+
+}
+.patient-text1{
+    position: absolute;
+width: 226px;
+height: 54px;
+left: 430px;
+top: 468px;
+
+font-family: sans-serif,'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+
+color: #FFC697;
+
+}
+.physician-text1{
+    position: absolute;
+width: 233px;
+height: 54px;
+left: 688px;
+top: 468px;
+font-family:sans-serif, 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+
+color: #FFC697;
+
+}
+.lab-text1{
+    position: absolute;
+width: 217px;
+height: 54px;
+left: 983px;
+top: 468px;
+font-family:sans-serif, 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+
+color: #FFC697;
+
+}
+
+.workflow{
+margin-top: 70%;   
+}
+.workflow-heading{
+    position: relative;
+width: 757px;
+height: 60px;
+left: 76px;
+top: 82px;
+
+font-family: 'PT Serif';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 150%;
+
+color: #E88B3E;
+
+}
+
+.workflow-sub{
+    position: absolute;
+width: 885px;
+height: 81px;
+margin-top: 85px;
+margin-left: 90px;
+font-family:  sans-serif,'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 170%;
+color: #4F4F4F;
+
+}
+.who-we-are{
+    background-color: #D8EEF1;
+    height: 474px;
+    margin-top:-110px;
+}
+
+
+.groupimage{
+    padding: 200px;
+    margin-left: -110px
+}
+
+.groupimg{
+margin-left: 0px;
+margin-top: 0px;
+}
+
+
+.who-we{
+    margin-top: -260px;
+    margin-left: 525px;
+    font-size: 16px;
+    color: #2C383E;
+    font-family: sans-serif,"popins";
+    font-weight: 400;
+
+}
+.heading-who{
+    position: absolute;
+width: 266px;
+height: 60px;
+left: 525px;
+margin-top: -346px;
+
+font-family: 'PT Serif';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 150%;
+
+color: #2C383E;
+}
+.our-team{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 32px;
+gap: 10px;
+
+position: absolute;
+width: 164px;
+height: 50px;
+left: 525px;
+margin-top: 25px;
+background: #408F99;
+border-radius: 60px;
+border: none;
+color: #F2F2F2;
+font-size: 20px;
+}
+.our-team:hover{
+    background-color: #2C383E;
+}
+
+.how1{
+    position: absolute;
+width: 658px;
+height: 120px;
+left: 84px;
+margin-top: 60px;
+
+
+font-family: Serif,'PT Serif';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 150%;
+color: #E88B3E;
+}
+.how2{
+    position: absolute;
+width: 856px;
+height: 81px;
+left: 84px;
+margin-top: 206px;
+
+
+font-family: sans-serif,'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 170%;
+
+color: #2C383E;
+
+}
+.statistics{
+    margin-top: 0px;
+}
+
+.staty{
+    position: absolute;
+    margin-top: 380px;
+width: 617px;
+height: 588px;
+left: 176px;
+}
+
+.staty2{
+    position: absolute;
+    width: 241.5px;
+    height: 403.49px;
+    left: 911.5px;
+    margin-top: 445px;
+
+
+
+}
+
+.r-section{
+    
+    height: 100vh;
+    
+}
+.scrollable-container {
+    position: relative;
+    overflow: hidden;
+ 
+
+  }
+  
+  .scrollable-content {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card {
+    flex: 0 0 500px; /* Adjust the width as needed */
+    height: 350px; /* Adjust the height as needed */
+    margin-right: 10px; /* Adjust the margin as needed */
+    background-color: #ccc;
+    padding: 30px;
+    margin-top: 26px;
+    margin-left: 30px;
+    transition: 0.3s;
+   cursor: pointer;
+  }
+  
+  .card:hover{
+box-shadow: 0px 4px 12px #2C383E;
+  }
+  
+  .scroll-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #eee;
+    border: 1px solid #999;
+    font-size: 20px;
+    color: #999;
+  }
+  
+  .left-arrow {
+    left: 80%; 
+    margin-top: 142%;
+    background: transparent;
+    border: none;/* Adjust the position as needed */
+  }
+  
+  .right-arrow {
+    right: 15%;
+    margin-top: 142%;
+    background: transparent;
+    border: none; /* Adjust the position as needed */
+  }
+  
+
+  .left-arrow1{
+    margin-top: -64px;
+  }
+  .right-arrow1{
+    margin-top: -61px;
+  }
+  
+.card1{
+    font-family:sans-serif, 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 170%;
+color: #408F99;
+
+}
+
+.card1-sub{
+    font-family:sans-serif, 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 170%;
+}
+.card1-sub1{
+    font-family:sans-serif, 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+
+}
+
+
+
+  
+
+.l-section{
+    float: left;
+    margin-top: 0px;
+    
+}
+
+.case-study{
+   
+   margin-top: 73%;
+   width: 100%;
+   height: 100vh;
+
+}
+.view-all{
+    margin-left: 133px;
+    margin-top: 294px;
+    border-radius: 60px;
+    position: absolute;
+width: 142px;
+height: 50px;
+margin-left: 116px;
+border: none;
+color: white;
+font-size: 20px;
+
+cursor: pointer;
+background: #408F99;
+ 
+}
+.view-all:hover{
+    background-color: #2C383E;
+}
+.l-section{
+    width: 50%;
+    height: 100vh;
+}
+
+.case1{
+    position: absolute;
+width: 239px;
+height: 60px;
+left: 111px;
+margin-top: 103px;
+font-family: 'PT Serif';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 150%;
+color: #E88B3E;
+
+}
+.case2{
+    position: absolute;
+width: 469px;
+height: 108px;
+left: 116px;
+margin-top: 175px;
+font-family: sans-serif,'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 170%;
+
+color: #2C383E;
+
+}
+
+
+.footer-seperator{
+    width: 100%;
+    margin-top: 120px;
+}
+.footer{
+    width: 100%;
+    height: auto;
+}
+.footer-logo{
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.home{
+    width: 48px;
+height: 27px;
+font-family:sans-serif, 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 170%;
+float: right;
+    margin-top: 48px;
+    margin-right: 50%;
+cursor: pointer;
+color: #2C383E;
+}
+.home:hover{
+    color: #F2994A;
+}
+.Our-Products{
+    cursor: pointer;
+
+    width: -1px;
+    height: 27px;
+    font-family: sans-serif, 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+    float: right;
+    margin-top: 94px;
+    margin-right: -93px;
+    color: #2C383E;
+
+}
+.Our-Products:hover{
+    color: #F2994A;
+}
+.Case-Studies{
+    cursor: pointer;
+
+    width: -1px;
+    height: 27px;
+    font-family: sans-serif, 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+    float: right;
+    margin-top: 142px;
+    margin-right: -94px;
+    color: #2C383E;
+}
+.Case-Studies:hover{
+    color: #F2994A;
+}
+  
+.Newsroom{
+    cursor: pointer;
+
+    width: -1px;
+    height: 27px;
+    font-family: sans-serif, 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+    float: right;
+    margin-top: 190px;
+    margin-right: -80px;
+
+    color: #2C383E;
+}
+.Newsroom:hover{
+    color: #F2994A;
+}
+.Contact-Us{
+    cursor: pointer;
+
+    width: -1px;
+    height: 27px;
+    font-family: sans-serif, 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+    float: right;
+    margin-top: 238px;
+    margin-right: -80px;
+    color: #2C383E;
+}
+.Contact-Us:hover{
+    color: #F2994A;
+}
+.Subscribe{
+    cursor: pointer;
+
+    width: -1px;
+    height: 27px;
+    font-family: sans-serif, 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+    float: right;
+    display: flex;
+    margin-top: 48px;
+    margin-right: -39%;
+    color: #2C383E;
+}
+
+.Subscribe:hover{
+    color: #F2994A;
+}
+.Privacy-Policy{
+    cursor: pointer;
+
+    width: -1px;
+    height: 27px;
+    font-family: sans-serif, 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+    float: right;
+    margin-top: 96px;
+    margin-right: -434px;
+    color: #2C383E;
+}
+.Privacy-Policy:hover{
+    color: #F2994A;
+}
+
+.Service{
+    cursor: pointer;
+
+    width: -1px;
+    height: 27px;
+    font-family: sans-serif, 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+    float: right;
+    margin-top: 144px;
+    margin-right: -448px;
+    color: #2C383E;
+
+}
+.Service:hover{
+    color: #F2994A;
+}
+.in-Touch{
+    cursor: pointer;
+
+    width: -1px;
+    height: 27px;
+    font-family: sans-serif, 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+    float: right;
+    margin-top: 192px;
+    margin-right: -427px;
+    color: #2C383E;
+}
+.in-Touch:hover{
+    color: #F2994A;
+}
